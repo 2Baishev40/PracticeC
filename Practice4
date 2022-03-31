@@ -5,7 +5,7 @@
 #include <vector>
 #include <climits>
  
-using namespace std;
+using namespace std; 
  
 const int arr_size = 5;
  
