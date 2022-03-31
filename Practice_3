@@ -19,7 +19,7 @@ int main() {
    cout << "Day: "<<  ltm->tm_mday << endl;
    cout << "Time: "<< 1 + ltm->tm_hour << ":";
    cout << 1 + ltm->tm_min << ":";
-   cout << 1 + ltm->tm_sec << endl;
+   cout << 1 + ltm->tm_sec << endl; 
 }
 
 
