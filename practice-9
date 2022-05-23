@@ -1,4 +1,4 @@
-// Задача 1. 
+
 // Создать класс Matrix, объектом которого является двумерный массив (можно 
 // динамический). 
 // Написать конструктор для этого класса, например, задающий размеры 
@@ -21,6 +21,7 @@
 
 using namespace std;
 
+
 class Matrix{
 public:
 	vector <vector <int>> matrix;
@@ -35,6 +36,8 @@ public:
 		this->n = n;
 		this->m = m;
 	}
+
+
 
 	void transpose_Matrix() {
 		vector<vector<int>>temp;
