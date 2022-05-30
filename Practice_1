@@ -1,9 +1,9 @@
 -----консольный калькулятор
 
-#include <iostream>
-using namespace std; //чтобы ниже не писать std
+#include <iostream> // подкл библиотеки . стандартная библотека, поддерживает ввод вывод
+using namespace std; //чтобы ниже не писать std. использовать пространство имен. чтобы объединять в участки коды
 
-double calculator(double x, double y, char operation) {
+double calculator(double x, double y, char operation) { // переменная с плав точкой, но больше. название калькулятор. переменные
 	switch (operation) {
 		case('+'):     //случай +: сложить х и у
 			return x + y;
@@ -15,7 +15,7 @@ double calculator(double x, double y, char operation) {
 			return x * y;
 		default:
 			cout << "none";
-			return -1;
+			return -1; //конец программы. код -1
 	}
 }
 int main() {
